@@ -128,9 +128,7 @@
     }
 }
  @media (min-width: 576px) and (max-width: 767px) {
-     .dinone {
-        display: none !important;
-    }
+     
      .slider_cont {
         display: none;
     }
