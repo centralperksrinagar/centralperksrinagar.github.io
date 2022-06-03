@@ -71,9 +71,7 @@
     }
 }
  @media (min-width: 768px) and (max-width: 991px) {
-     .dinone {
-        display: none !important;
-    }
+    
      .slider_cont {
         display: none;
     }
