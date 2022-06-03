@@ -1,2 +1,0 @@
-# centralperksrinagar.github.io
-Menu
