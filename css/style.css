@@ -943,3 +943,9 @@ li{
 b{
      font-size: large;
 }
+#veg{
+     color: green;
+}
+#nonveg{
+     color: red;
+}
