@@ -932,7 +932,7 @@
      color: #fff;
      font-weight: 500;
 }
-#h3{
+.h3{
      font-family:'Lavenda', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
      font-size:x-large;
      color: rgb(0, 54, 27);
@@ -949,4 +949,9 @@ b{
 }
 #nonveg{
      color: red;
+}
+#h4{
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     color: rgb(0, 54, 27);
 }
