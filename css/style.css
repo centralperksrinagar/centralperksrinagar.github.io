@@ -967,3 +967,9 @@ b{
 .tabs {
      margin-top: 10px;
 }
+#note {
+     padding-left: 15px;
+     padding-top: 5px;
+     background-color: rgb(17, 17, 139);
+     color: white;
+}
