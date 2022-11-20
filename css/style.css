@@ -964,3 +964,6 @@ b{
      color:white;
      font-variant: small-caps;
 }
+button {
+     margin-top: 10px;
+}
