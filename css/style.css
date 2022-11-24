@@ -975,3 +975,14 @@ b{
      background-color: rgb(17, 17, 139);
      color: white;
 }
+.text-bg-secondary{ 
+     font-size: 16px;
+}
+.special {
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: bold;
+     font-style:oblique;
+}
+i {
+     color: #0c3658;
+}
