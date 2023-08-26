@@ -978,7 +978,7 @@ b{
      color: white;
 }
 .text-bg-secondary{ 
-     font-size: 16px;
+     font-size: 18px;
 }
 .special {
      font-family: 'Times New Roman', Times, serif;
@@ -994,4 +994,7 @@ i {
 }
 s{
      color: rgb(161, 21, 21);
+}
+.noodles {
+     margin-top: 10px;
 }
