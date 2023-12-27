@@ -101,7 +101,9 @@
         <div class="jumbotron">
             <h3 id="note">Note: Please tap on the headings to navigate back to top</h3> 
             <div class=" col-md-12">
+                <button type="button" class="tabs btn btn-light"><a href="#new_year"><h4 id="h4">New Year Offers <sup><i>Upto 10 Jan</i></sup></h4></a></button>
                 <button type="button" class="tabs btn btn-light"><a href="#cp_special"><h4 id="h4">Central Perk Special</h4></a></button>
+                <button type="button" class="tabs btn btn-light"><a href="#chef_special"><h4 id="h4">Chef Special</h4></a></button>
                 <!-- <button type="button" class="tabs btn btn-light"><a href="#winter_special"><h4 id="h4">Winter Special <sup><i>New</i></sup></h4></a></button> -->
                 <button type="button" class="tabs btn btn-light"><a href="#breakfast"><h4 id="h4">Breakfast</h4></a></button>
                 <!-- <button type="button" class="tabs btn btn-light"><a href="#combos"><h4 id="h4">Combos <sup></sup></h4></a></button> -->
@@ -127,30 +129,22 @@
                 <button type="button" class="tabs btn btn-light"><a href="#shakes"><h4 id="h4">Shakes</h4></a></button>
                 <button type="button" class="tabs btn btn-light"><a href="#drinks"><h4 id="h4">Drinks</h4></a></button>
                 <button type="button" class="tabs btn btn-light"><a href="#deserts"><h4 id="h4">Desserts</h4></a></button>
-<!-- 
-                <a href="#cp_special"><h4 id="h4">Central Perk Special</h4></a>
-                <a href="#breakfast"><h4 id="h4">Breakfast</h4></a>
-                <a href="#tea"><h4 id="h4">Tea</h4></a>
-                <a href="#coffee"><h4 id="h4">Coffee</h4></a>
-                <a href="#burgers"><h4 id="h4">Burgers</h4></a>
-                <a href="#sandwich"><h4 id="h4">Sandwiches</h4></a>
-                <a href="#pizza"><h4 id="h4">Pizza</h4></a>
-                <a href="#wraps"><h4 id="h4">Wraps</h4></a>
-                <a href="#salads"><h4 id="h4">Salads</h4></a>
-                <a href="#starter"><h4 id="h4">Starters</h4></a>
-                <a href="#soup"><h4 id="h4">Soup</h4></a>
-                <a href="#pasta"><h4 id="h4">Pasta</h4></a>
-                <a href="#cafe_china"><h4 id="h4">Chinese</h4></a>
-                <a href="#breads"><h4 id="h4">Breads</h4></a>
-                <a href="#tandoori"><h4 id="h4">Tandoori</h4></a>
-                <a href="#mocktail"><h4 id="h4">Mocktails</h4></a>
-                <a href="#shakes"><h4 id="h4">Shakes</h4></a>
-                <a href="#drinks"><h4 id="h4">Drinks</h4></a>
-                <a href="#deserts"><h4 id="h4">Desserts</h4></a> 
--->
             </div>
             <hr>
-                
+                <div class=" col-md-12">
+                    <a href="#menu"><h3 id="chef_special" class="h3">New Year Offers</h3></a>
+                    <span class="rounded-pill text-bg-danger"  id="nonveg">| (OR) Choose between the given options</span>
+                    <ul class="list-group">
+                        <li class="list-group-item"><b>Order Upto Rs 299 - </b> <i>Free (Central Perk Special Kehwa | Any Tea)</i></li>
+                        <li class="list-group-item"><b>Order Upto Rs 399 - </b> <i>Free (1 Cappuccino  | 1 Latte) </i></li>
+                        <li class="list-group-item"><b>Order Upto Rs 499 - </b> <i>Free (Any Soup | Any Mocktail)  </i></li>
+                        <li class="list-group-item"><b>Order Upto Rs 799 - </b> <i>Free (Any Chicken Burger | Any Chicken Sandwich)  </i></li>
+                        <li class="list-group-item"><b>Order Upto Rs 999 - </b> <i>Free [1 Full] (Chicken Biryani | Chicken Fried Rice) </i></li>
+                        <li class="list-group-item"><b>Order Upto Rs 1499 - </b> <i>Free (Any Large Sized Pizza)   </i></li>
+                        <li class="list-group-item"><b>Order Upto Rs 2499 - </b> <i>Free [1 Full] (Tandoori Chicken | Afghani Chicken)  </i></li>
+                </ul>
+                </div><br>
+
                 <div class=" col-md-12">
                     <a href="#menu"><h3 id="cp_special" class="h3">Central Perk Special</h3></a>
                         <ul class="list-group">
@@ -167,6 +161,16 @@
                             <li class="list-group-item">Central Perk Special Non-Veg Platter - <b>1200 Rs</b></li>
                             <li class="list-group-item">Sweet & Sour Dip - <b>20 Rs</b></li>
                     </ul>
+                </div><br>
+                <div class=" col-md-12">
+                    <a href="#menu"><h3 id="chef_special" class="h3">Chef Special</h3></a>
+
+                       <span class="badge rounded-pill text-bg-danger"  id="nonveg">Non Veg</span>
+                       <ul class="list-group">
+                        <li class="list-group-item">Chicken Kepsa Rice - <b>799 Rs</b></li>
+                        <li class="list-group-item">Honey Chilli Prawns (6 pcs) - <b>699 Rs</b></li>
+                        <li class="list-group-item">Dynamite Prawns (4 pcs) - <b>499 Rs</b></li>
+                   </ul>
                 </div><br>
                 <!-- <div class=" col-md-12">
                     <a href="#menu"><h3 id="winter_special" class="h3">Winter Special <sup><i>New</i></sup></h3></a>
@@ -363,15 +367,18 @@
                             <li class="list-group-item">French Fries - <b>170 Rs</b></li>
                             <li class="list-group-item">Masala Fries - <b>195 Rs</b></li>
                             <li class="list-group-item">Cheese Fries - <b>210 Rs</b></li>
-                            <li class="list-group-item">Paneer Pakora (8 Pcs)- <b>250 Rs</b></li>
+                            <li class="list-group-item">Paneer Pakora (8 Pcs) - <b>250 Rs</b></li>
+                            <li class="list-group-item">Cheesy Bruschetta - <b>260 Rs</b></li>
                        </ul>
                        <span class="badge rounded-pill text-bg-danger"  id="nonveg">Non Veg</span>
                        <ul class="list-group">
                             <li class="list-group-item">Chicken Pakora (8 Pcs) - <b>260 Rs</b></li>    
                             <li class="list-group-item">Chicken Finger(8 Pcs) - <b>280 Rs</b></li>
+                            <li class="list-group-item">Chicken Bruschetta - <b>350 Rs</b></li>
                             <li class="list-group-item">Cafe Bucket (H|F) - <b>450 | 700</b><br>
-                                <i>(Free 1 Medium Pepsi [300 ml])</i>
+                                <i>(Free 1 Medium Coke [300 ml])</i>
                             </li>
+                            
                        </ul>
                 </div><br>
                 <div class=" col-md-12">
@@ -574,7 +581,7 @@
                             <li class="list-group-item">Tomato Spaghetti With Chicken Mince - <b>390 Rs</b></li>
                             <li class="list-group-item">White Mushroom Spaghetti With Chicken Mince - <b>410 Rs</b></li>
                             <li class="list-group-item">Chicken Steak - <b>650 Rs</b></li>
-                            <li class="list-group-item">Mutton Steak - <b>860 Rs</b></li>
+                            <li class="list-group-item">Mutton Steak - <b>800 Rs</b></li>
                         </ul>
                 </div><br>
                 <div class=" col-md-12">
