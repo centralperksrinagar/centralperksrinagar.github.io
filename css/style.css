@@ -955,7 +955,11 @@ b{
      color: red;
 }
 #add_on{
-     color: mediumorchid;
+     font-size: medium;
+     color: rgb(150, 43, 79);
+}
+#portion{
+     color: rgb(150, 43, 79);
 }
 #h4{
      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
